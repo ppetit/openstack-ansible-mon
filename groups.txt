@@ -1,0 +1,1041 @@
+[0;35mVariable files: "-e @/etc/openstack_deploy/user_secrets.yml -e @/etc/openstack_deploy/user_variables.yml "[0m
+aio1 | SUCCESS => {
+    "msg": {
+        "aio1-host_containers": [
+            "aio1_repo_container-97de50a2", 
+            "aio1_nova_api_os_compute_container-b749a0a1", 
+            "aio1_heat_engine_container-ec3b08d7", 
+            "aio1_heat_apis_container-553237bd", 
+            "aio1_keystone_container-2bab6a28", 
+            "aio1_galera_container-d7393fc4", 
+            "aio1_nova_scheduler_container-f3776ea9", 
+            "aio1_swift_proxy_container-440ec89d", 
+            "aio1_nova_conductor_container-721003c4", 
+            "aio1_utility_container-1ab034e4", 
+            "aio1_nova_api_metadata_container-43f7e57c", 
+            "aio1_glance_container-72294ed5", 
+            "aio1_horizon_container-35a61f8b", 
+            "aio1_rabbit_mq_container-674e6550", 
+            "aio1_neutron_server_container-f57937f4", 
+            "aio1_rsyslog_container-27d37839", 
+            "aio1_nova_console_container-f5cd5c55", 
+            "aio1_neutron_agents_container-ddde38dd", 
+            "aio1_nova_api_placement_container-00dd883d", 
+            "aio1_cinder_api_container-f134778d", 
+            "aio1_designate_container-31577008", 
+            "aio1_memcached_container-12598fc3", 
+            "aio1_cinder_scheduler_container-748d9ce8", 
+            "aio1_cluster-metrics_container-10b5901c"
+        ], 
+        "all": [
+            "aio1", 
+            "aio1_utility_container-1ab034e4", 
+            "aio1_cluster-metrics_container-10b5901c", 
+            "aio1_swift_proxy_container-440ec89d", 
+            "aio1_glance_container-72294ed5", 
+            "aio1_neutron_server_container-f57937f4", 
+            "aio1_repo_container-97de50a2", 
+            "aio1_neutron_agents_container-ddde38dd", 
+            "aio1_nova_api_os_compute_container-b749a0a1", 
+            "aio1_galera_container-d7393fc4", 
+            "aio1_rabbit_mq_container-674e6550", 
+            "aio1_memcached_container-12598fc3", 
+            "aio1_designate_container-31577008", 
+            "aio1_nova_console_container-f5cd5c55", 
+            "aio1_cinder_api_container-f134778d", 
+            "aio1_cinder_scheduler_container-748d9ce8", 
+            "aio1_keystone_container-2bab6a28", 
+            "aio1_heat_engine_container-ec3b08d7", 
+            "aio1_heat_apis_container-553237bd", 
+            "aio1_nova_scheduler_container-f3776ea9", 
+            "aio1_nova_conductor_container-721003c4", 
+            "aio1_nova_api_metadata_container-43f7e57c", 
+            "aio1_horizon_container-35a61f8b", 
+            "aio1_rsyslog_container-27d37839", 
+            "aio1_nova_api_placement_container-00dd883d"
+        ], 
+        "all_containers": [
+            "aio1_repo_container-97de50a2", 
+            "aio1_nova_api_os_compute_container-b749a0a1", 
+            "aio1_heat_engine_container-ec3b08d7", 
+            "aio1_heat_apis_container-553237bd", 
+            "aio1_keystone_container-2bab6a28", 
+            "aio1_galera_container-d7393fc4", 
+            "aio1_nova_scheduler_container-f3776ea9", 
+            "aio1_swift_proxy_container-440ec89d", 
+            "aio1_nova_conductor_container-721003c4", 
+            "aio1_utility_container-1ab034e4", 
+            "aio1_nova_api_metadata_container-43f7e57c", 
+            "aio1_glance_container-72294ed5", 
+            "aio1_horizon_container-35a61f8b", 
+            "aio1_rabbit_mq_container-674e6550", 
+            "aio1_neutron_server_container-f57937f4", 
+            "aio1_rsyslog_container-27d37839", 
+            "aio1_nova_console_container-f5cd5c55", 
+            "aio1_neutron_agents_container-ddde38dd", 
+            "aio1_nova_api_placement_container-00dd883d", 
+            "aio1_cinder_api_container-f134778d", 
+            "aio1_designate_container-31577008", 
+            "aio1_memcached_container-12598fc3", 
+            "aio1_cinder_scheduler_container-748d9ce8", 
+            "aio1_cluster-metrics_container-10b5901c"
+        ], 
+        "aodh_alarm_evaluator": [], 
+        "aodh_alarm_notifier": [], 
+        "aodh_all": [], 
+        "aodh_api": [], 
+        "aodh_container": [], 
+        "aodh_listener": [], 
+        "barbican_all": [], 
+        "barbican_api": [], 
+        "barbican_container": [], 
+        "ceilometer_agent_central": [], 
+        "ceilometer_agent_compute": [], 
+        "ceilometer_agent_notification": [], 
+        "ceilometer_all": [], 
+        "ceilometer_central_container": [], 
+        "ceph-mon": [], 
+        "ceph-mon_container": [], 
+        "ceph-mon_containers": [], 
+        "ceph-mon_hosts": [], 
+        "ceph-osd": [], 
+        "ceph-osd_container": [], 
+        "ceph-osd_containers": [], 
+        "ceph-osd_hosts": [], 
+        "ceph_all": [], 
+        "cinder_all": [
+            "aio1", 
+            "aio1_cinder_api_container-f134778d", 
+            "aio1_cinder_scheduler_container-748d9ce8"
+        ], 
+        "cinder_api": [
+            "aio1_cinder_api_container-f134778d"
+        ], 
+        "cinder_api_container": [
+            "aio1_cinder_api_container-f134778d"
+        ], 
+        "cinder_backup": [
+            "aio1"
+        ], 
+        "cinder_scheduler": [
+            "aio1_cinder_scheduler_container-748d9ce8"
+        ], 
+        "cinder_scheduler_container": [
+            "aio1_cinder_scheduler_container-748d9ce8"
+        ], 
+        "cinder_volume": [
+            "aio1"
+        ], 
+        "cinder_volumes_container": [], 
+        "cluster-metrics": [
+            "aio1_cluster-metrics_container-10b5901c"
+        ], 
+        "cluster-metrics_all": [
+            "aio1_cluster-metrics_container-10b5901c"
+        ], 
+        "cluster-metrics_container": [
+            "aio1_cluster-metrics_container-10b5901c"
+        ], 
+        "component_skel": [], 
+        "compute-infra_all": [
+            "aio1", 
+            "aio1_nova_api_os_compute_container-b749a0a1", 
+            "aio1_nova_scheduler_container-f3776ea9", 
+            "aio1_nova_conductor_container-721003c4", 
+            "aio1_nova_api_metadata_container-43f7e57c", 
+            "aio1_nova_console_container-f5cd5c55", 
+            "aio1_nova_api_placement_container-00dd883d"
+        ], 
+        "compute-infra_containers": [
+            "aio1_repo_container-97de50a2", 
+            "aio1_nova_api_os_compute_container-b749a0a1", 
+            "aio1_heat_engine_container-ec3b08d7", 
+            "aio1_heat_apis_container-553237bd", 
+            "aio1_keystone_container-2bab6a28", 
+            "aio1_galera_container-d7393fc4", 
+            "aio1_nova_scheduler_container-f3776ea9", 
+            "aio1_swift_proxy_container-440ec89d", 
+            "aio1_nova_conductor_container-721003c4", 
+            "aio1_utility_container-1ab034e4", 
+            "aio1_nova_api_metadata_container-43f7e57c", 
+            "aio1_glance_container-72294ed5", 
+            "aio1_horizon_container-35a61f8b", 
+            "aio1_rabbit_mq_container-674e6550", 
+            "aio1_neutron_server_container-f57937f4", 
+            "aio1_rsyslog_container-27d37839", 
+            "aio1_nova_console_container-f5cd5c55", 
+            "aio1_neutron_agents_container-ddde38dd", 
+            "aio1_nova_api_placement_container-00dd883d", 
+            "aio1_cinder_api_container-f134778d", 
+            "aio1_designate_container-31577008", 
+            "aio1_memcached_container-12598fc3", 
+            "aio1_cinder_scheduler_container-748d9ce8", 
+            "aio1_cluster-metrics_container-10b5901c"
+        ], 
+        "compute-infra_hosts": [
+            "aio1"
+        ], 
+        "compute_all": [
+            "aio1"
+        ], 
+        "compute_containers": [
+            "aio1_repo_container-97de50a2", 
+            "aio1_nova_api_os_compute_container-b749a0a1", 
+            "aio1_heat_engine_container-ec3b08d7", 
+            "aio1_heat_apis_container-553237bd", 
+            "aio1_keystone_container-2bab6a28", 
+            "aio1_galera_container-d7393fc4", 
+            "aio1_nova_scheduler_container-f3776ea9", 
+            "aio1_swift_proxy_container-440ec89d", 
+            "aio1_nova_conductor_container-721003c4", 
+            "aio1_utility_container-1ab034e4", 
+            "aio1_nova_api_metadata_container-43f7e57c", 
+            "aio1_glance_container-72294ed5", 
+            "aio1_horizon_container-35a61f8b", 
+            "aio1_rabbit_mq_container-674e6550", 
+            "aio1_neutron_server_container-f57937f4", 
+            "aio1_rsyslog_container-27d37839", 
+            "aio1_nova_console_container-f5cd5c55", 
+            "aio1_neutron_agents_container-ddde38dd", 
+            "aio1_nova_api_placement_container-00dd883d", 
+            "aio1_cinder_api_container-f134778d", 
+            "aio1_designate_container-31577008", 
+            "aio1_memcached_container-12598fc3", 
+            "aio1_cinder_scheduler_container-748d9ce8", 
+            "aio1_cluster-metrics_container-10b5901c"
+        ], 
+        "compute_hosts": [
+            "aio1"
+        ], 
+        "container_skel": [], 
+        "dashboard_all": [
+            "aio1_horizon_container-35a61f8b", 
+            "aio1"
+        ], 
+        "dashboard_containers": [
+            "aio1_repo_container-97de50a2", 
+            "aio1_nova_api_os_compute_container-b749a0a1", 
+            "aio1_heat_engine_container-ec3b08d7", 
+            "aio1_heat_apis_container-553237bd", 
+            "aio1_keystone_container-2bab6a28", 
+            "aio1_galera_container-d7393fc4", 
+            "aio1_nova_scheduler_container-f3776ea9", 
+            "aio1_swift_proxy_container-440ec89d", 
+            "aio1_nova_conductor_container-721003c4", 
+            "aio1_utility_container-1ab034e4", 
+            "aio1_nova_api_metadata_container-43f7e57c", 
+            "aio1_glance_container-72294ed5", 
+            "aio1_horizon_container-35a61f8b", 
+            "aio1_rabbit_mq_container-674e6550", 
+            "aio1_neutron_server_container-f57937f4", 
+            "aio1_rsyslog_container-27d37839", 
+            "aio1_nova_console_container-f5cd5c55", 
+            "aio1_neutron_agents_container-ddde38dd", 
+            "aio1_nova_api_placement_container-00dd883d", 
+            "aio1_cinder_api_container-f134778d", 
+            "aio1_designate_container-31577008", 
+            "aio1_memcached_container-12598fc3", 
+            "aio1_cinder_scheduler_container-748d9ce8", 
+            "aio1_cluster-metrics_container-10b5901c"
+        ], 
+        "dashboard_hosts": [
+            "aio1"
+        ], 
+        "database_containers": [], 
+        "database_hosts": [], 
+        "designate_all": [
+            "aio1_designate_container-31577008"
+        ], 
+        "designate_api": [
+            "aio1_designate_container-31577008"
+        ], 
+        "designate_central": [
+            "aio1_designate_container-31577008"
+        ], 
+        "designate_container": [
+            "aio1_designate_container-31577008"
+        ], 
+        "designate_mdns": [
+            "aio1_designate_container-31577008"
+        ], 
+        "designate_producer": [
+            "aio1_designate_container-31577008"
+        ], 
+        "designate_sink": [
+            "aio1_designate_container-31577008"
+        ], 
+        "designate_worker": [
+            "aio1_designate_container-31577008"
+        ], 
+        "dnsaas_all": [
+            "aio1", 
+            "aio1_designate_container-31577008"
+        ], 
+        "dnsaas_containers": [
+            "aio1_repo_container-97de50a2", 
+            "aio1_nova_api_os_compute_container-b749a0a1", 
+            "aio1_heat_engine_container-ec3b08d7", 
+            "aio1_heat_apis_container-553237bd", 
+            "aio1_keystone_container-2bab6a28", 
+            "aio1_galera_container-d7393fc4", 
+            "aio1_nova_scheduler_container-f3776ea9", 
+            "aio1_swift_proxy_container-440ec89d", 
+            "aio1_nova_conductor_container-721003c4", 
+            "aio1_utility_container-1ab034e4", 
+            "aio1_nova_api_metadata_container-43f7e57c", 
+            "aio1_glance_container-72294ed5", 
+            "aio1_horizon_container-35a61f8b", 
+            "aio1_rabbit_mq_container-674e6550", 
+            "aio1_neutron_server_container-f57937f4", 
+            "aio1_rsyslog_container-27d37839", 
+            "aio1_nova_console_container-f5cd5c55", 
+            "aio1_neutron_agents_container-ddde38dd", 
+            "aio1_nova_api_placement_container-00dd883d", 
+            "aio1_cinder_api_container-f134778d", 
+            "aio1_designate_container-31577008", 
+            "aio1_memcached_container-12598fc3", 
+            "aio1_cinder_scheduler_container-748d9ce8", 
+            "aio1_cluster-metrics_container-10b5901c"
+        ], 
+        "dnsaas_hosts": [
+            "aio1"
+        ], 
+        "etcd": [], 
+        "etcd_all": [], 
+        "etcd_container": [], 
+        "etcd_containers": [], 
+        "etcd_hosts": [], 
+        "galera": [
+            "aio1_galera_container-d7393fc4"
+        ], 
+        "galera_all": [
+            "aio1_galera_container-d7393fc4"
+        ], 
+        "galera_container": [
+            "aio1_galera_container-d7393fc4"
+        ], 
+        "glance_all": [
+            "aio1_glance_container-72294ed5"
+        ], 
+        "glance_api": [
+            "aio1_glance_container-72294ed5"
+        ], 
+        "glance_container": [
+            "aio1_glance_container-72294ed5"
+        ], 
+        "glance_registry": [
+            "aio1_glance_container-72294ed5"
+        ], 
+        "gnocchi_all": [], 
+        "gnocchi_api": [], 
+        "gnocchi_container": [], 
+        "gnocchi_metricd": [], 
+        "haproxy": [
+            "aio1"
+        ], 
+        "haproxy_all": [
+            "aio1"
+        ], 
+        "haproxy_container": [], 
+        "haproxy_containers": [
+            "aio1_repo_container-97de50a2", 
+            "aio1_nova_api_os_compute_container-b749a0a1", 
+            "aio1_heat_engine_container-ec3b08d7", 
+            "aio1_heat_apis_container-553237bd", 
+            "aio1_keystone_container-2bab6a28", 
+            "aio1_galera_container-d7393fc4", 
+            "aio1_nova_scheduler_container-f3776ea9", 
+            "aio1_swift_proxy_container-440ec89d", 
+            "aio1_nova_conductor_container-721003c4", 
+            "aio1_utility_container-1ab034e4", 
+            "aio1_nova_api_metadata_container-43f7e57c", 
+            "aio1_glance_container-72294ed5", 
+            "aio1_horizon_container-35a61f8b", 
+            "aio1_rabbit_mq_container-674e6550", 
+            "aio1_neutron_server_container-f57937f4", 
+            "aio1_rsyslog_container-27d37839", 
+            "aio1_nova_console_container-f5cd5c55", 
+            "aio1_neutron_agents_container-ddde38dd", 
+            "aio1_nova_api_placement_container-00dd883d", 
+            "aio1_cinder_api_container-f134778d", 
+            "aio1_designate_container-31577008", 
+            "aio1_memcached_container-12598fc3", 
+            "aio1_cinder_scheduler_container-748d9ce8", 
+            "aio1_cluster-metrics_container-10b5901c"
+        ], 
+        "haproxy_hosts": [
+            "aio1"
+        ], 
+        "heat_all": [
+            "aio1_heat_apis_container-553237bd", 
+            "aio1_heat_engine_container-ec3b08d7"
+        ], 
+        "heat_api": [
+            "aio1_heat_apis_container-553237bd"
+        ], 
+        "heat_api_cfn": [
+            "aio1_heat_apis_container-553237bd"
+        ], 
+        "heat_api_cloudwatch": [
+            "aio1_heat_apis_container-553237bd"
+        ], 
+        "heat_apis_container": [
+            "aio1_heat_apis_container-553237bd"
+        ], 
+        "heat_engine": [
+            "aio1_heat_engine_container-ec3b08d7"
+        ], 
+        "heat_engine_container": [
+            "aio1_heat_engine_container-ec3b08d7"
+        ], 
+        "horizon": [
+            "aio1_horizon_container-35a61f8b"
+        ], 
+        "horizon_all": [
+            "aio1_horizon_container-35a61f8b"
+        ], 
+        "horizon_container": [
+            "aio1_horizon_container-35a61f8b"
+        ], 
+        "hosts": [
+            "aio1"
+        ], 
+        "identity_all": [
+            "aio1_keystone_container-2bab6a28", 
+            "aio1"
+        ], 
+        "identity_containers": [
+            "aio1_repo_container-97de50a2", 
+            "aio1_nova_api_os_compute_container-b749a0a1", 
+            "aio1_heat_engine_container-ec3b08d7", 
+            "aio1_heat_apis_container-553237bd", 
+            "aio1_keystone_container-2bab6a28", 
+            "aio1_galera_container-d7393fc4", 
+            "aio1_nova_scheduler_container-f3776ea9", 
+            "aio1_swift_proxy_container-440ec89d", 
+            "aio1_nova_conductor_container-721003c4", 
+            "aio1_utility_container-1ab034e4", 
+            "aio1_nova_api_metadata_container-43f7e57c", 
+            "aio1_glance_container-72294ed5", 
+            "aio1_horizon_container-35a61f8b", 
+            "aio1_rabbit_mq_container-674e6550", 
+            "aio1_neutron_server_container-f57937f4", 
+            "aio1_rsyslog_container-27d37839", 
+            "aio1_nova_console_container-f5cd5c55", 
+            "aio1_neutron_agents_container-ddde38dd", 
+            "aio1_nova_api_placement_container-00dd883d", 
+            "aio1_cinder_api_container-f134778d", 
+            "aio1_designate_container-31577008", 
+            "aio1_memcached_container-12598fc3", 
+            "aio1_cinder_scheduler_container-748d9ce8", 
+            "aio1_cluster-metrics_container-10b5901c"
+        ], 
+        "identity_hosts": [
+            "aio1"
+        ], 
+        "image_all": [
+            "aio1_glance_container-72294ed5", 
+            "aio1"
+        ], 
+        "image_containers": [
+            "aio1_repo_container-97de50a2", 
+            "aio1_nova_api_os_compute_container-b749a0a1", 
+            "aio1_heat_engine_container-ec3b08d7", 
+            "aio1_heat_apis_container-553237bd", 
+            "aio1_keystone_container-2bab6a28", 
+            "aio1_galera_container-d7393fc4", 
+            "aio1_nova_scheduler_container-f3776ea9", 
+            "aio1_swift_proxy_container-440ec89d", 
+            "aio1_nova_conductor_container-721003c4", 
+            "aio1_utility_container-1ab034e4", 
+            "aio1_nova_api_metadata_container-43f7e57c", 
+            "aio1_glance_container-72294ed5", 
+            "aio1_horizon_container-35a61f8b", 
+            "aio1_rabbit_mq_container-674e6550", 
+            "aio1_neutron_server_container-f57937f4", 
+            "aio1_rsyslog_container-27d37839", 
+            "aio1_nova_console_container-f5cd5c55", 
+            "aio1_neutron_agents_container-ddde38dd", 
+            "aio1_nova_api_placement_container-00dd883d", 
+            "aio1_cinder_api_container-f134778d", 
+            "aio1_designate_container-31577008", 
+            "aio1_memcached_container-12598fc3", 
+            "aio1_cinder_scheduler_container-748d9ce8", 
+            "aio1_cluster-metrics_container-10b5901c"
+        ], 
+        "image_hosts": [
+            "aio1"
+        ], 
+        "ironic-compute_containers": [], 
+        "ironic-compute_hosts": [], 
+        "ironic-infra_containers": [], 
+        "ironic-infra_hosts": [], 
+        "ironic-server_containers": [], 
+        "ironic-server_hosts": [], 
+        "ironic_all": [], 
+        "ironic_api": [], 
+        "ironic_api_container": [], 
+        "ironic_compute": [], 
+        "ironic_compute_container": [], 
+        "ironic_conductor": [], 
+        "ironic_conductor_container": [], 
+        "ironic_server": [], 
+        "ironic_server_container": [], 
+        "ironic_servers": [], 
+        "key-manager_containers": [], 
+        "key-manager_hosts": [], 
+        "keystone": [
+            "aio1_keystone_container-2bab6a28"
+        ], 
+        "keystone_all": [
+            "aio1_keystone_container-2bab6a28"
+        ], 
+        "keystone_container": [
+            "aio1_keystone_container-2bab6a28"
+        ], 
+        "kvm-compute_containers": [], 
+        "kvm-compute_hosts": [], 
+        "log_all": [
+            "aio1", 
+            "aio1_rsyslog_container-27d37839", 
+            "aio1_cluster-metrics_container-10b5901c"
+        ], 
+        "log_containers": [
+            "aio1_repo_container-97de50a2", 
+            "aio1_nova_api_os_compute_container-b749a0a1", 
+            "aio1_heat_engine_container-ec3b08d7", 
+            "aio1_heat_apis_container-553237bd", 
+            "aio1_keystone_container-2bab6a28", 
+            "aio1_galera_container-d7393fc4", 
+            "aio1_nova_scheduler_container-f3776ea9", 
+            "aio1_swift_proxy_container-440ec89d", 
+            "aio1_nova_conductor_container-721003c4", 
+            "aio1_utility_container-1ab034e4", 
+            "aio1_nova_api_metadata_container-43f7e57c", 
+            "aio1_glance_container-72294ed5", 
+            "aio1_horizon_container-35a61f8b", 
+            "aio1_rabbit_mq_container-674e6550", 
+            "aio1_neutron_server_container-f57937f4", 
+            "aio1_rsyslog_container-27d37839", 
+            "aio1_nova_console_container-f5cd5c55", 
+            "aio1_neutron_agents_container-ddde38dd", 
+            "aio1_nova_api_placement_container-00dd883d", 
+            "aio1_cinder_api_container-f134778d", 
+            "aio1_designate_container-31577008", 
+            "aio1_memcached_container-12598fc3", 
+            "aio1_cinder_scheduler_container-748d9ce8", 
+            "aio1_cluster-metrics_container-10b5901c"
+        ], 
+        "log_hosts": [
+            "aio1"
+        ], 
+        "lxc_hosts": [
+            "aio1"
+        ], 
+        "lxd-compute_containers": [], 
+        "lxd-compute_hosts": [], 
+        "magnum": [], 
+        "magnum-infra_containers": [], 
+        "magnum-infra_hosts": [], 
+        "magnum_all": [], 
+        "magnum_container": [], 
+        "mano_containers": [], 
+        "mano_hosts": [], 
+        "memcached": [
+            "aio1_memcached_container-12598fc3"
+        ], 
+        "memcached_all": [
+            "aio1_memcached_container-12598fc3"
+        ], 
+        "memcached_container": [
+            "aio1_memcached_container-12598fc3"
+        ], 
+        "memcaching_containers": [], 
+        "memcaching_hosts": [], 
+        "metering-alarm_containers": [], 
+        "metering-alarm_hosts": [], 
+        "metering-compute_container": [], 
+        "metering-compute_containers": [], 
+        "metering-compute_hosts": [], 
+        "metering-infra_containers": [], 
+        "metering-infra_hosts": [], 
+        "metrics_containers": [], 
+        "metrics_hosts": [], 
+        "molteniron": [], 
+        "molteniron-server_container": [], 
+        "molteniron-server_containers": [], 
+        "molteniron-server_hosts": [], 
+        "molteniron_all": [], 
+        "mq_containers": [], 
+        "mq_hosts": [], 
+        "network_all": [
+            "aio1", 
+            "aio1_neutron_server_container-f57937f4", 
+            "aio1_neutron_agents_container-ddde38dd"
+        ], 
+        "network_containers": [
+            "aio1_repo_container-97de50a2", 
+            "aio1_nova_api_os_compute_container-b749a0a1", 
+            "aio1_heat_engine_container-ec3b08d7", 
+            "aio1_heat_apis_container-553237bd", 
+            "aio1_keystone_container-2bab6a28", 
+            "aio1_galera_container-d7393fc4", 
+            "aio1_nova_scheduler_container-f3776ea9", 
+            "aio1_swift_proxy_container-440ec89d", 
+            "aio1_nova_conductor_container-721003c4", 
+            "aio1_utility_container-1ab034e4", 
+            "aio1_nova_api_metadata_container-43f7e57c", 
+            "aio1_glance_container-72294ed5", 
+            "aio1_horizon_container-35a61f8b", 
+            "aio1_rabbit_mq_container-674e6550", 
+            "aio1_neutron_server_container-f57937f4", 
+            "aio1_rsyslog_container-27d37839", 
+            "aio1_nova_console_container-f5cd5c55", 
+            "aio1_neutron_agents_container-ddde38dd", 
+            "aio1_nova_api_placement_container-00dd883d", 
+            "aio1_cinder_api_container-f134778d", 
+            "aio1_designate_container-31577008", 
+            "aio1_memcached_container-12598fc3", 
+            "aio1_cinder_scheduler_container-748d9ce8", 
+            "aio1_cluster-metrics_container-10b5901c"
+        ], 
+        "network_hosts": [
+            "aio1"
+        ], 
+        "neutron_agent": [
+            "aio1_neutron_agents_container-ddde38dd"
+        ], 
+        "neutron_agents_container": [
+            "aio1_neutron_agents_container-ddde38dd"
+        ], 
+        "neutron_all": [
+            "aio1_neutron_agents_container-ddde38dd", 
+            "aio1", 
+            "aio1_neutron_server_container-f57937f4"
+        ], 
+        "neutron_bgp_dragent": [
+            "aio1_neutron_agents_container-ddde38dd"
+        ], 
+        "neutron_dhcp_agent": [
+            "aio1_neutron_agents_container-ddde38dd"
+        ], 
+        "neutron_l3_agent": [
+            "aio1_neutron_agents_container-ddde38dd"
+        ], 
+        "neutron_lbaas_agent": [
+            "aio1_neutron_agents_container-ddde38dd"
+        ], 
+        "neutron_linuxbridge_agent": [
+            "aio1_neutron_agents_container-ddde38dd", 
+            "aio1"
+        ], 
+        "neutron_metadata_agent": [
+            "aio1_neutron_agents_container-ddde38dd"
+        ], 
+        "neutron_metering_agent": [
+            "aio1_neutron_agents_container-ddde38dd"
+        ], 
+        "neutron_openvswitch_agent": [
+            "aio1_neutron_agents_container-ddde38dd", 
+            "aio1"
+        ], 
+        "neutron_server": [
+            "aio1_neutron_server_container-f57937f4"
+        ], 
+        "neutron_server_container": [
+            "aio1_neutron_server_container-f57937f4"
+        ], 
+        "neutron_sriov_nic_agent": [
+            "aio1"
+        ], 
+        "nova_all": [
+            "aio1_nova_api_metadata_container-43f7e57c", 
+            "aio1_nova_console_container-f5cd5c55", 
+            "aio1_nova_scheduler_container-f3776ea9", 
+            "aio1_nova_api_placement_container-00dd883d", 
+            "aio1_nova_api_os_compute_container-b749a0a1", 
+            "aio1_nova_conductor_container-721003c4", 
+            "aio1"
+        ], 
+        "nova_api_metadata": [
+            "aio1_nova_api_metadata_container-43f7e57c"
+        ], 
+        "nova_api_metadata_container": [
+            "aio1_nova_api_metadata_container-43f7e57c"
+        ], 
+        "nova_api_os_compute": [
+            "aio1_nova_api_os_compute_container-b749a0a1"
+        ], 
+        "nova_api_os_compute_container": [
+            "aio1_nova_api_os_compute_container-b749a0a1"
+        ], 
+        "nova_api_placement": [
+            "aio1_nova_api_placement_container-00dd883d"
+        ], 
+        "nova_api_placement_container": [
+            "aio1_nova_api_placement_container-00dd883d"
+        ], 
+        "nova_compute": [
+            "aio1"
+        ], 
+        "nova_compute_container": [], 
+        "nova_conductor": [
+            "aio1_nova_conductor_container-721003c4"
+        ], 
+        "nova_conductor_container": [
+            "aio1_nova_conductor_container-721003c4"
+        ], 
+        "nova_console": [
+            "aio1_nova_console_container-f5cd5c55"
+        ], 
+        "nova_console_container": [
+            "aio1_nova_console_container-f5cd5c55"
+        ], 
+        "nova_scheduler": [
+            "aio1_nova_scheduler_container-f3776ea9"
+        ], 
+        "nova_scheduler_container": [
+            "aio1_nova_scheduler_container-f3776ea9"
+        ], 
+        "octavia-api": [], 
+        "octavia-health-manager": [], 
+        "octavia-housekeeping": [], 
+        "octavia-infra_containers": [], 
+        "octavia-infra_hosts": [], 
+        "octavia-worker": [], 
+        "octavia_all": [], 
+        "octavia_server_container": [], 
+        "opendaylight": [
+            "aio1_neutron_server_container-f57937f4"
+        ], 
+        "operator_containers": [], 
+        "operator_hosts": [], 
+        "orchestration_all": [
+            "aio1", 
+            "aio1_heat_engine_container-ec3b08d7", 
+            "aio1_heat_apis_container-553237bd"
+        ], 
+        "orchestration_containers": [
+            "aio1_repo_container-97de50a2", 
+            "aio1_nova_api_os_compute_container-b749a0a1", 
+            "aio1_heat_engine_container-ec3b08d7", 
+            "aio1_heat_apis_container-553237bd", 
+            "aio1_keystone_container-2bab6a28", 
+            "aio1_galera_container-d7393fc4", 
+            "aio1_nova_scheduler_container-f3776ea9", 
+            "aio1_swift_proxy_container-440ec89d", 
+            "aio1_nova_conductor_container-721003c4", 
+            "aio1_utility_container-1ab034e4", 
+            "aio1_nova_api_metadata_container-43f7e57c", 
+            "aio1_glance_container-72294ed5", 
+            "aio1_horizon_container-35a61f8b", 
+            "aio1_rabbit_mq_container-674e6550", 
+            "aio1_neutron_server_container-f57937f4", 
+            "aio1_rsyslog_container-27d37839", 
+            "aio1_nova_console_container-f5cd5c55", 
+            "aio1_neutron_agents_container-ddde38dd", 
+            "aio1_nova_api_placement_container-00dd883d", 
+            "aio1_cinder_api_container-f134778d", 
+            "aio1_designate_container-31577008", 
+            "aio1_memcached_container-12598fc3", 
+            "aio1_cinder_scheduler_container-748d9ce8", 
+            "aio1_cluster-metrics_container-10b5901c"
+        ], 
+        "orchestration_hosts": [
+            "aio1"
+        ], 
+        "os-infra_containers": [], 
+        "os-infra_hosts": [], 
+        "physical_skel": [], 
+        "pkg_repo": [
+            "aio1_repo_container-97de50a2"
+        ], 
+        "powervm-compute_containers": [], 
+        "powervm-compute_hosts": [], 
+        "qemu-compute_containers": [], 
+        "qemu-compute_hosts": [], 
+        "rabbit_mq_container": [
+            "aio1_rabbit_mq_container-674e6550"
+        ], 
+        "rabbitmq": [
+            "aio1_rabbit_mq_container-674e6550"
+        ], 
+        "rabbitmq_all": [
+            "aio1_rabbit_mq_container-674e6550"
+        ], 
+        "remote": [], 
+        "remote_containers": [], 
+        "repo-infra_all": [
+            "aio1", 
+            "aio1_repo_container-97de50a2"
+        ], 
+        "repo-infra_containers": [
+            "aio1_repo_container-97de50a2", 
+            "aio1_nova_api_os_compute_container-b749a0a1", 
+            "aio1_heat_engine_container-ec3b08d7", 
+            "aio1_heat_apis_container-553237bd", 
+            "aio1_keystone_container-2bab6a28", 
+            "aio1_galera_container-d7393fc4", 
+            "aio1_nova_scheduler_container-f3776ea9", 
+            "aio1_swift_proxy_container-440ec89d", 
+            "aio1_nova_conductor_container-721003c4", 
+            "aio1_utility_container-1ab034e4", 
+            "aio1_nova_api_metadata_container-43f7e57c", 
+            "aio1_glance_container-72294ed5", 
+            "aio1_horizon_container-35a61f8b", 
+            "aio1_rabbit_mq_container-674e6550", 
+            "aio1_neutron_server_container-f57937f4", 
+            "aio1_rsyslog_container-27d37839", 
+            "aio1_nova_console_container-f5cd5c55", 
+            "aio1_neutron_agents_container-ddde38dd", 
+            "aio1_nova_api_placement_container-00dd883d", 
+            "aio1_cinder_api_container-f134778d", 
+            "aio1_designate_container-31577008", 
+            "aio1_memcached_container-12598fc3", 
+            "aio1_cinder_scheduler_container-748d9ce8", 
+            "aio1_cluster-metrics_container-10b5901c"
+        ], 
+        "repo-infra_hosts": [
+            "aio1"
+        ], 
+        "repo_all": [
+            "aio1_repo_container-97de50a2"
+        ], 
+        "repo_container": [
+            "aio1_repo_container-97de50a2"
+        ], 
+        "rsyslog": [
+            "aio1_rsyslog_container-27d37839"
+        ], 
+        "rsyslog_all": [
+            "aio1_rsyslog_container-27d37839"
+        ], 
+        "rsyslog_container": [
+            "aio1_rsyslog_container-27d37839"
+        ], 
+        "sahara-infra_containers": [], 
+        "sahara-infra_hosts": [], 
+        "sahara_all": [], 
+        "sahara_api": [], 
+        "sahara_container": [], 
+        "sahara_engine": [], 
+        "shared-infra_all": [
+            "aio1", 
+            "aio1_galera_container-d7393fc4", 
+            "aio1_utility_container-1ab034e4", 
+            "aio1_rabbit_mq_container-674e6550", 
+            "aio1_memcached_container-12598fc3"
+        ], 
+        "shared-infra_containers": [
+            "aio1_repo_container-97de50a2", 
+            "aio1_nova_api_os_compute_container-b749a0a1", 
+            "aio1_heat_engine_container-ec3b08d7", 
+            "aio1_heat_apis_container-553237bd", 
+            "aio1_keystone_container-2bab6a28", 
+            "aio1_galera_container-d7393fc4", 
+            "aio1_nova_scheduler_container-f3776ea9", 
+            "aio1_swift_proxy_container-440ec89d", 
+            "aio1_nova_conductor_container-721003c4", 
+            "aio1_utility_container-1ab034e4", 
+            "aio1_nova_api_metadata_container-43f7e57c", 
+            "aio1_glance_container-72294ed5", 
+            "aio1_horizon_container-35a61f8b", 
+            "aio1_rabbit_mq_container-674e6550", 
+            "aio1_neutron_server_container-f57937f4", 
+            "aio1_rsyslog_container-27d37839", 
+            "aio1_nova_console_container-f5cd5c55", 
+            "aio1_neutron_agents_container-ddde38dd", 
+            "aio1_nova_api_placement_container-00dd883d", 
+            "aio1_cinder_api_container-f134778d", 
+            "aio1_designate_container-31577008", 
+            "aio1_memcached_container-12598fc3", 
+            "aio1_cinder_scheduler_container-748d9ce8", 
+            "aio1_cluster-metrics_container-10b5901c"
+        ], 
+        "shared-infra_hosts": [
+            "aio1"
+        ], 
+        "storage-infra_all": [
+            "aio1", 
+            "aio1_cinder_api_container-f134778d", 
+            "aio1_cinder_scheduler_container-748d9ce8"
+        ], 
+        "storage-infra_containers": [
+            "aio1_repo_container-97de50a2", 
+            "aio1_nova_api_os_compute_container-b749a0a1", 
+            "aio1_heat_engine_container-ec3b08d7", 
+            "aio1_heat_apis_container-553237bd", 
+            "aio1_keystone_container-2bab6a28", 
+            "aio1_galera_container-d7393fc4", 
+            "aio1_nova_scheduler_container-f3776ea9", 
+            "aio1_swift_proxy_container-440ec89d", 
+            "aio1_nova_conductor_container-721003c4", 
+            "aio1_utility_container-1ab034e4", 
+            "aio1_nova_api_metadata_container-43f7e57c", 
+            "aio1_glance_container-72294ed5", 
+            "aio1_horizon_container-35a61f8b", 
+            "aio1_rabbit_mq_container-674e6550", 
+            "aio1_neutron_server_container-f57937f4", 
+            "aio1_rsyslog_container-27d37839", 
+            "aio1_nova_console_container-f5cd5c55", 
+            "aio1_neutron_agents_container-ddde38dd", 
+            "aio1_nova_api_placement_container-00dd883d", 
+            "aio1_cinder_api_container-f134778d", 
+            "aio1_designate_container-31577008", 
+            "aio1_memcached_container-12598fc3", 
+            "aio1_cinder_scheduler_container-748d9ce8", 
+            "aio1_cluster-metrics_container-10b5901c"
+        ], 
+        "storage-infra_hosts": [
+            "aio1"
+        ], 
+        "storage_all": [
+            "aio1"
+        ], 
+        "storage_containers": [
+            "aio1_repo_container-97de50a2", 
+            "aio1_nova_api_os_compute_container-b749a0a1", 
+            "aio1_heat_engine_container-ec3b08d7", 
+            "aio1_heat_apis_container-553237bd", 
+            "aio1_keystone_container-2bab6a28", 
+            "aio1_galera_container-d7393fc4", 
+            "aio1_nova_scheduler_container-f3776ea9", 
+            "aio1_swift_proxy_container-440ec89d", 
+            "aio1_nova_conductor_container-721003c4", 
+            "aio1_utility_container-1ab034e4", 
+            "aio1_nova_api_metadata_container-43f7e57c", 
+            "aio1_glance_container-72294ed5", 
+            "aio1_horizon_container-35a61f8b", 
+            "aio1_rabbit_mq_container-674e6550", 
+            "aio1_neutron_server_container-f57937f4", 
+            "aio1_rsyslog_container-27d37839", 
+            "aio1_nova_console_container-f5cd5c55", 
+            "aio1_neutron_agents_container-ddde38dd", 
+            "aio1_nova_api_placement_container-00dd883d", 
+            "aio1_cinder_api_container-f134778d", 
+            "aio1_designate_container-31577008", 
+            "aio1_memcached_container-12598fc3", 
+            "aio1_cinder_scheduler_container-748d9ce8", 
+            "aio1_cluster-metrics_container-10b5901c"
+        ], 
+        "storage_hosts": [
+            "aio1"
+        ], 
+        "swift-proxy_all": [
+            "aio1_swift_proxy_container-440ec89d", 
+            "aio1"
+        ], 
+        "swift-proxy_containers": [
+            "aio1_repo_container-97de50a2", 
+            "aio1_nova_api_os_compute_container-b749a0a1", 
+            "aio1_heat_engine_container-ec3b08d7", 
+            "aio1_heat_apis_container-553237bd", 
+            "aio1_keystone_container-2bab6a28", 
+            "aio1_galera_container-d7393fc4", 
+            "aio1_nova_scheduler_container-f3776ea9", 
+            "aio1_swift_proxy_container-440ec89d", 
+            "aio1_nova_conductor_container-721003c4", 
+            "aio1_utility_container-1ab034e4", 
+            "aio1_nova_api_metadata_container-43f7e57c", 
+            "aio1_glance_container-72294ed5", 
+            "aio1_horizon_container-35a61f8b", 
+            "aio1_rabbit_mq_container-674e6550", 
+            "aio1_neutron_server_container-f57937f4", 
+            "aio1_rsyslog_container-27d37839", 
+            "aio1_nova_console_container-f5cd5c55", 
+            "aio1_neutron_agents_container-ddde38dd", 
+            "aio1_nova_api_placement_container-00dd883d", 
+            "aio1_cinder_api_container-f134778d", 
+            "aio1_designate_container-31577008", 
+            "aio1_memcached_container-12598fc3", 
+            "aio1_cinder_scheduler_container-748d9ce8", 
+            "aio1_cluster-metrics_container-10b5901c"
+        ], 
+        "swift-proxy_hosts": [
+            "aio1"
+        ], 
+        "swift-remote_containers": [], 
+        "swift-remote_hosts": [], 
+        "swift_acc": [
+            "aio1"
+        ], 
+        "swift_acc_container": [], 
+        "swift_all": [
+            "aio1", 
+            "aio1_swift_proxy_container-440ec89d"
+        ], 
+        "swift_cont": [
+            "aio1"
+        ], 
+        "swift_cont_container": [], 
+        "swift_containers": [
+            "aio1_repo_container-97de50a2", 
+            "aio1_nova_api_os_compute_container-b749a0a1", 
+            "aio1_heat_engine_container-ec3b08d7", 
+            "aio1_heat_apis_container-553237bd", 
+            "aio1_keystone_container-2bab6a28", 
+            "aio1_galera_container-d7393fc4", 
+            "aio1_nova_scheduler_container-f3776ea9", 
+            "aio1_swift_proxy_container-440ec89d", 
+            "aio1_nova_conductor_container-721003c4", 
+            "aio1_utility_container-1ab034e4", 
+            "aio1_nova_api_metadata_container-43f7e57c", 
+            "aio1_glance_container-72294ed5", 
+            "aio1_horizon_container-35a61f8b", 
+            "aio1_rabbit_mq_container-674e6550", 
+            "aio1_neutron_server_container-f57937f4", 
+            "aio1_rsyslog_container-27d37839", 
+            "aio1_nova_console_container-f5cd5c55", 
+            "aio1_neutron_agents_container-ddde38dd", 
+            "aio1_nova_api_placement_container-00dd883d", 
+            "aio1_cinder_api_container-f134778d", 
+            "aio1_designate_container-31577008", 
+            "aio1_memcached_container-12598fc3", 
+            "aio1_cinder_scheduler_container-748d9ce8", 
+            "aio1_cluster-metrics_container-10b5901c"
+        ], 
+        "swift_hosts": [
+            "aio1"
+        ], 
+        "swift_obj": [
+            "aio1"
+        ], 
+        "swift_obj_container": [], 
+        "swift_proxy": [
+            "aio1_swift_proxy_container-440ec89d"
+        ], 
+        "swift_proxy_container": [
+            "aio1_swift_proxy_container-440ec89d"
+        ], 
+        "swift_remote": [], 
+        "swift_remote_all": [], 
+        "swift_remote_container": [], 
+        "tacker_all": [], 
+        "tacker_container": [], 
+        "tacker_server": [], 
+        "trove-infra_containers": [], 
+        "trove-infra_hosts": [], 
+        "trove_all": [], 
+        "trove_api": [], 
+        "trove_api_container": [], 
+        "trove_conductor": [], 
+        "trove_conductor_container": [], 
+        "trove_taskmanager": [], 
+        "trove_taskmanager_container": [], 
+        "unbound": [], 
+        "unbound_all": [], 
+        "unbound_container": [], 
+        "unbound_containers": [], 
+        "unbound_hosts": [], 
+        "ungrouped": [], 
+        "utility": [
+            "aio1_utility_container-1ab034e4"
+        ], 
+        "utility_all": [
+            "aio1_utility_container-1ab034e4"
+        ], 
+        "utility_container": [
+            "aio1_utility_container-1ab034e4"
+        ]
+    }
+}
